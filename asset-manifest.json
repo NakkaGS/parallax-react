@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parallax-react/static/css/main.2c77248c.css",
+    "main.js": "/parallax-react/static/js/main.5bbadd09.js",
+    "static/js/787.28cb0dcd.chunk.js": "/parallax-react/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/parallax-react/index.html",
+    "main.2c77248c.css.map": "/parallax-react/static/css/main.2c77248c.css.map",
+    "main.5bbadd09.js.map": "/parallax-react/static/js/main.5bbadd09.js.map",
+    "787.28cb0dcd.chunk.js.map": "/parallax-react/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c77248c.css",
+    "static/js/main.5bbadd09.js"
+  ]
+}
