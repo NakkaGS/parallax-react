@@ -55,7 +55,7 @@ export default function Parallax() {
       <div className="big_text">Welcome to</div>
       
       <div className="parallax__cover">
-        <div className="part_2"><ParallaxHero/></div>
+        {/* <div className="part_2"><ParallaxHero/></div> */}
       </div>
     </div>
   );

@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fedcc8;
+}
+
+.parallax {
+  perspective: 100px;
+  height: 75vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* left: 50%; */
+  right: 0;
+  bottom: 0;
+  /* margin-left: -1500px; */
+}
+
+.parallax-layer {
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+  bottom: 0;
+  left: 0;
+}
+
+.parallax-layer img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.parallax-cover {
+  background: #e7b0e4;
+  display: block;
+  position: absolute;
+  top: 75vh;
+  left: 0;
+  right: 0;
+  height: 2000px;
+  z-index: 2;
+}
+
+.parallax__layer__0 {
+  transform: scale(2);
+}
+
+.parallax__layer__1 {
+  transform: scale(2.5) translateX(-208px) translateY(78px);
+}
+
+.parallax__layer__2 {
+  transform: translateZ(-130px) scale(4) translateX(-267px) translateY(66px);
+}
+
+.parallax__layer__3 {
+  transform: scale(2.5) translateX(-157px) translateY(22px);
+  bottom: 2%;
+  left: 0;
+}
+
+.parallax__layer__4 {
+  transform: scale(2) translateX(-92px) translateY(12px);
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer__5 {
+  transform: scale(1.5) translateX(-48px);
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer__6 {
+  transform: translateZ(0px) scale(1);
+}
+
+.part_2 {
+  margin-top: 10rem;
+}
