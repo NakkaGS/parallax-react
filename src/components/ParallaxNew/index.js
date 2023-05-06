@@ -13,27 +13,27 @@ import road from "./assets/images/road_tree.svg";
 export default function Parallax() {
   return (
     <div>
-      <div className="parallax">
-        <div className="parallax-layer parallax__layer__0">
+      <div className="parallax-new">
+        <div className="parallax-layer parallax-layer-0">
           <img src={sky} alt="" />
         </div>
-        <div className="parallax-layer parallax__layer__1">
+        <div className="parallax-layer parallax-layer-1">
           <img src={cloud} alt="" />
         </div>
-        <div className="parallax-layer parallax__layer__2">
+        <div className="parallax-layer parallax-layer-2">
           <img src={buildings} alt="" />
         </div>
-        <div className="parallax-layer parallax__layer__3">
+        <div className="parallax-layer parallax-layer-3">
           <img src={grass} alt="" />
         </div>
-        <div className="parallax-layer parallax__layer__4">
+        <div className="parallax-layer parallax-layer-4">
           <img src={road} alt="" />
         </div>
 
-        <div className="parallax-layer parallax__layer__5">
+        <div className="parallax-layer parallax-layer-5">
           <img src={bench_lamp} alt="" />
         </div>
-        {/* <div className="parallax__layer parallax__layer__6">
+        {/* <div className="parallax__layer parallax-layer-6">
         <img
           src="https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true"
           alt=""
