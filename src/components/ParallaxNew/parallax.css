@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --green: #87c830;
+  --pink: #fc59a3;
+}
+
 html,
 body {
   width: 100%;
@@ -104,6 +109,29 @@ a {
       
   background: #79d7a7;  
   height: calc(var(--size) + 20px);
+
+}
+
+.pink {
+  background-color: var(--pink) !important;
+}
+
+.spikes-inverted::after {
+  -moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+}
+
+.spikes-white::after {
+  background-image: linear-gradient(135deg, #fff 25%, transparent 25%), linear-gradient(225deg, #fff 25%, transparent 25%) !important;
+  bottom: 0% !important;
+  top: 0% !important;
+}
+
+.spike-pink::after {
+  background-image: linear-gradient(135deg, var(--pink) 25%, transparent 25%), linear-gradient(225deg, var(--pink) 25%, transparent 25%) !important;
 
 }
 

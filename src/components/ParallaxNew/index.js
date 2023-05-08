@@ -59,7 +59,7 @@ export default function ParallaxNew() {
         </div>
       </div>
 
-      <div className="spikes"></div>
+      <div className="spikes spikes-inverted spikes-white"></div>
       <div class="parallax__group info-container">
         <img src={concert_img} alt="Lively and colourful concert" />
         <div class="text-container">
@@ -72,8 +72,8 @@ export default function ParallaxNew() {
         </div>
       </div>
 
-      <div className="spikes"></div>
-      <div class="parallax__group info-container">
+      <div className="spikes spikes-white"></div>
+      <div class="parallax__group info-container pink">
         <img src={concert_img} alt="Lively and colourful concert" />
         <div class="text-container">
           <h2>This is your year.</h2>
@@ -84,6 +84,7 @@ export default function ParallaxNew() {
           </a>
         </div>
       </div>
+      <div className="spikes spike-pink"></div>
 
       <div class="parallax__group hero-container">
         <div class="parallax__layer sky"></div>
