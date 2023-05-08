@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/parallax-react/static/css/main.73688ca1.css",
-    "main.js": "/parallax-react/static/js/main.baba3c70.js",
+    "main.css": "/parallax-react/static/css/main.7bd4a0c2.css",
+    "main.js": "/parallax-react/static/js/main.8027c969.js",
     "static/js/787.bc914bf9.chunk.js": "/parallax-react/static/js/787.bc914bf9.chunk.js",
+    "static/media/kids.png": "/parallax-react/static/media/kids.0574599f5e37f5549ea3.png",
     "static/media/concert.jpg": "/parallax-react/static/media/concert.ac4c5010adbdb420febc.jpg",
     "static/media/road_lamp_bench.svg": "/parallax-react/static/media/road_lamp_bench.d2995684e4902549a10c.svg",
+    "static/media/professor.png": "/parallax-react/static/media/professor.8d58f4ebd688adf19443.png",
     "static/media/buildings.svg": "/parallax-react/static/media/buildings.bf75d7ee79712d151f8f.svg",
     "static/media/BebasKai-Regular.otf": "/parallax-react/static/media/BebasKai-Regular.8b76f15b110771ccc9ae.otf",
     "static/media/tree.svg": "/parallax-react/static/media/tree.e6c352ac5f7342d9ca51.svg",
     "static/media/sky.svg": "/parallax-react/static/media/sky.05491adceaa6f2a183c5.svg",
     "static/media/grass.svg": "/parallax-react/static/media/grass.6febfefc70ad16c6fe75.svg",
     "index.html": "/parallax-react/index.html",
-    "main.73688ca1.css.map": "/parallax-react/static/css/main.73688ca1.css.map",
-    "main.baba3c70.js.map": "/parallax-react/static/js/main.baba3c70.js.map",
+    "main.7bd4a0c2.css.map": "/parallax-react/static/css/main.7bd4a0c2.css.map",
+    "main.8027c969.js.map": "/parallax-react/static/js/main.8027c969.js.map",
     "787.bc914bf9.chunk.js.map": "/parallax-react/static/js/787.bc914bf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73688ca1.css",
-    "static/js/main.baba3c70.js"
+    "static/css/main.7bd4a0c2.css",
+    "static/js/main.8027c969.js"
   ]
 }
