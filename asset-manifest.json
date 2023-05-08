@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/parallax-react/static/css/main.06e0dd65.css",
-    "main.js": "/parallax-react/static/js/main.53852bef.js",
+    "main.css": "/parallax-react/static/css/main.73688ca1.css",
+    "main.js": "/parallax-react/static/js/main.baba3c70.js",
     "static/js/787.bc914bf9.chunk.js": "/parallax-react/static/js/787.bc914bf9.chunk.js",
     "static/media/concert.jpg": "/parallax-react/static/media/concert.ac4c5010adbdb420febc.jpg",
     "static/media/road_lamp_bench.svg": "/parallax-react/static/media/road_lamp_bench.d2995684e4902549a10c.svg",
@@ -11,12 +11,12 @@
     "static/media/sky.svg": "/parallax-react/static/media/sky.05491adceaa6f2a183c5.svg",
     "static/media/grass.svg": "/parallax-react/static/media/grass.6febfefc70ad16c6fe75.svg",
     "index.html": "/parallax-react/index.html",
-    "main.06e0dd65.css.map": "/parallax-react/static/css/main.06e0dd65.css.map",
-    "main.53852bef.js.map": "/parallax-react/static/js/main.53852bef.js.map",
+    "main.73688ca1.css.map": "/parallax-react/static/css/main.73688ca1.css.map",
+    "main.baba3c70.js.map": "/parallax-react/static/js/main.baba3c70.js.map",
     "787.bc914bf9.chunk.js.map": "/parallax-react/static/js/787.bc914bf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06e0dd65.css",
-    "static/js/main.53852bef.js"
+    "static/css/main.73688ca1.css",
+    "static/js/main.baba3c70.js"
   ]
 }
