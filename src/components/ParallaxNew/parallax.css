@@ -53,8 +53,6 @@ a {
 
 .spikes {
   position: relative;
-  background: transparent;
-  height: 1vh;
 }
 
 .spikes::after {
@@ -68,6 +66,24 @@ a {
   height: 50px;
   background-size: 50px 100%;
   background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.spikes-2 {
+  position: relative;
+}
+
+.spikes-2::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(-135deg, #2c3e50 25%, transparent 25%), linear-gradient(-225deg, #2c3e50 25%, transparent 25%);
   background-position: 0 0;
 }
 
@@ -93,10 +109,26 @@ a {
   bottom: 0;
 }
 
+.curved {
+  --size: 30px;
+  --R: calc(var(--size)*1.28);
+  --position: bottom;
+
+  -webkit-mask:
+    radial-gradient(var(--R) at left 50% var(--position) calc(1.8*var(--size)),#000 99%,#0000 101%) 
+      left calc(50% - 2*var(--size)) var(--position) 0/calc(4*var(--size)) 100%,
+    radial-gradient(var(--R) at left 50% var(--position) calc(-.8*var(--size)),#0000 99%,#000 101%) 
+      left 50% var(--position) var(--size)/calc(4*var(--size)) 100% repeat-x;
+      
+  background: #79d7a7;  
+  height: calc(var(--size) + 20px);
+  
+}
+
 .sky {
   background: url('../../assets/img/sky.svg') no-repeat center;
-  background-size: contain;
-  transform: translateZ(-600px) scale(5);
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
   z-index: 1;
 }
 
@@ -133,6 +165,20 @@ a {
   background-size: cover;
   transform: translateZ(0) scale(1);
   z-index: 6;
+}
+
+.parallax_2 {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+
+.sky_1 {
+  background: url('../../assets/img/sky.svg') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
+  z-index: 1;
 }
 
 .hero-text {
