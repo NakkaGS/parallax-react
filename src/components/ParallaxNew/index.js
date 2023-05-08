@@ -13,7 +13,8 @@ export default function ParallaxNew() {
         <div class="parallax__layer water"></div>
         <div class="parallax__layer people1"></div>
         <div class="parallax__layer people2"></div>
-        {/* <div class="parallax__layer people3"></div> */}
+        <div class="parallax__layer people3"></div>
+        <div class="parallax__layer people4"></div>
         <div class="parallax__layer hero-text">
           <h2>Parallax React</h2>
           <ul>
@@ -36,10 +37,10 @@ export default function ParallaxNew() {
             </li>
           </ul>
           <div class="year-container">
-            <h1>2</h1>
-            <h1>0</h1>
-            <h1>1</h1>
-            <h1>9</h1>
+            <h1>T</h1>
+            <h1>E</h1>
+            <h1>S</h1>
+            <h1>T</h1>
           </div>
           <div class="social-container">
             <a href="https://github.com/KiaanCastillo">

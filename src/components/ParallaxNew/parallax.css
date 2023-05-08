@@ -143,9 +143,16 @@ a {
 }
 
 .people3 {
-  /* background: url('../../assets/img/people3.png') no-repeat center; */
-  background-size: cover;
-  transform: translateZ(0) scale(1);
+  background: url('../../assets/img/professor.png') no-repeat center;
+  background-size: auto !important;
+  transform: translateZ(-100px) scale(0.8) translateX(-500px) translateY(300px);
+  z-index: 5;
+}
+
+.people4 {
+  background: url('../../assets/img/kids.png') no-repeat center;
+  background-size: auto;
+  transform: translateZ(-100px) scale(0.5) translateY(650px) translateX(600px);
   z-index: 6;
 }
 
@@ -205,7 +212,7 @@ a {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 17rem;
+  width: 50rem;
   height: 25rem;
 }
 
@@ -233,6 +240,21 @@ a {
 .year-container h1:nth-of-type(4) {
   right: 0;
   bottom: 20%;
+}
+
+.year-container h1:nth-of-type(5) {
+  top: 0;
+  right: 20%;
+}
+
+.year-container h1:nth-of-type(6) {
+  right: 0;
+  bottom: 10%;
+}
+
+.year-container h1:nth-of-type(6) {
+  top: 0;
+  right: 10%;
 }
 
 .social-container {
