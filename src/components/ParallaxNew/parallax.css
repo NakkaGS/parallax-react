@@ -166,42 +166,42 @@ a {
   z-index: 1;
 }
 
-.bushes {
+.buildings {
   background: url("../../assets/img/buildings.svg") no-repeat center;
   background-size: contain;
   transform: translateZ(-525px) scale(3);
   z-index: 2;
 }
 
-.water {
+.grass {
   background: url("../../assets/img/grass.svg") no-repeat center;
   background-size: contain;
   transform: translateZ(-400px) scale(2.75);
   z-index: 3;
 }
 
-.people1 {
+.tree {
   background: url("../../assets/img/tree.svg") no-repeat center;
   background-size: contain;
   transform: translateZ(-250px) scale(2);
   z-index: 4;
 }
 
-.people2 {
+.road_lamp_bench {
   background: url("../../assets/img/road_lamp_bench.svg") no-repeat center;
   background-size: contain;
   transform: translateZ(-125px) scale(1.6) translateY(-30px);
   z-index: 4;
 }
 
-.people3 {
+.people1 {
   background: url("../../assets/img/professor.png") no-repeat center;
   background-size: auto !important;
   transform: translateZ(-100px) scale(0.8) translateX(-500px) translateY(350px);
   z-index: 5;
 }
 
-.people4 {
+.people2 {
   background: url("../../assets/img/kids.png") no-repeat center;
   background-size: contain;
   transform: translateZ(-100px) scale(0.5) translateY(650px) translateX(600px);
@@ -371,23 +371,23 @@ a {
 
 @media (max-width: 2000px) {
   .sky,
-  .bushes,
-  .water,
+  .buildings,
+  .grass,
+  .tree,
+  .road_lamp_bench,
   .people1,
-  .people2,
-  .people3,
   .hero-text {
     background-size: cover;
   }
 }
 
 @media (max-width: 700px) {
-  .people4 {
+  .people1 {
     background-size: contain;
     transform: translateZ(-118px) scale(1) translateY(374px) translateX(-2px);
   }
 
-  .people3 {
+  .people2 {
     display: none;
   }
 }

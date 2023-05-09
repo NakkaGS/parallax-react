@@ -11,23 +11,23 @@ import concert_img from "../../assets/img/concert.jpg";
 
 export default function ParallaxNew() {
   const [showMenu, setShowMenu] = useState(false);
-  const [showMenuWhite, setShowMenuWhite] = useState(false);
 
   const mobilemenu = useRef();
 
   useClickOutside(mobilemenu, () => {
     setShowMenu(false);
   });
+  
   return (
     <div class="wrapper">
       <div class="parallax__group hero-container rellax">
         <div class="parallax__layer sky"></div>
-        <div class="parallax__layer bushes"></div>
-        <div class="parallax__layer water"></div>
+        <div class="parallax__layer buildings"></div>
+        <div class="parallax__layer grass"></div>
+        <div class="parallax__layer tree"></div>
+        <div class="parallax__layer road_lamp_bench"></div>
         <div class="parallax__layer people1"></div>
         <div class="parallax__layer people2"></div>
-        <div class="parallax__layer people3"></div>
-        <div class="parallax__layer people4"></div>
         <div class="parallax__layer hero-text">
           <h2>Parallax React</h2>
           <button
@@ -42,19 +42,19 @@ export default function ParallaxNew() {
           <div className="navbar-collapse" ref={mobilemenu}>
             <ul>
               <li>
-                <a href="#">About us</a>
+                <a href="#about">About us</a>
               </li>
               <li>
-                <a href="#">Workshop</a>
+                <a href="#workshop">Workshop</a>
               </li>
               <li>
-                <a href="#">Testimonial</a>
+                <a href="#testimonial">Testimonial</a>
               </li>
               <li>
-                <a href="#">Agenda</a>
+                <a href="#agenda">Agenda</a>
               </li>
               <li>
-                <a href="#" class="btn">
+                <a href="#contact" class="btn">
                   Contact us
                 </a>
               </li>
@@ -90,7 +90,7 @@ export default function ParallaxNew() {
           <h2>This is your year.</h2>
           <p>What would life be if we had no courage to attempt anything?</p>
           <p>- Vincent Van Gogh</p>
-          <a href="#" class="btn-dark">
+          <a href="#btn" class="btn-dark">
             Get Started Now
           </a>
         </div>
@@ -103,7 +103,7 @@ export default function ParallaxNew() {
           <h2>This is your year.</h2>
           <p>What would life be if we had no courage to attempt anything?</p>
           <p>- Vincent Van Gogh</p>
-          <a href="#" class="btn-dark">
+          <a href="#btn" class="btn-dark">
             Get Started Now
           </a>
         </div>
@@ -112,11 +112,11 @@ export default function ParallaxNew() {
 
       <div class="parallax__group hero-container">
         <div class="parallax__layer sky"></div>
-        <div class="parallax__layer bushes"></div>
-        <div class="parallax__layer water"></div>
-        <div class="parallax__layer people1"></div>
-        <div class="parallax__layer people2"></div>
-        {/* <div class="parallax__layer people3"></div> */}
+        <div class="parallax__layer buildings"></div>
+        <div class="parallax__layer grass"></div>
+        <div class="parallax__layer tree"></div>
+        <div class="parallax__layer road_lamp_bench"></div>
+
         <div class="parallax__layer hero-text">
           <h2>Parallax React</h2>
 
@@ -150,7 +150,7 @@ export default function ParallaxNew() {
           <h2>This is your year.</h2>
           <p>What would life be if we had no courage to attempt anything?</p>
           <p>- Vincent Van Gogh</p>
-          <a href="#" class="btn-dark">
+          <a href="#btn" class="btn-dark">
             Get Started Now
           </a>
         </div>
