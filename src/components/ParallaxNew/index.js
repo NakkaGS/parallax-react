@@ -137,7 +137,7 @@ export default function ParallaxNew() {
         </div>
       </div>
 
-      <div className="spikes"></div>
+      <div className="spikes spikes-inverted spikes-white"></div>
       <div class="parallax__group info-container">
         <img src={concert_img} alt="Lively and colourful concert" />
         <div class="text-container">
@@ -150,7 +150,7 @@ export default function ParallaxNew() {
         </div>
       </div>
 
-      <div className="spikes"></div>
+      <div className="spikes spikes-white"></div>
     </div>
   );
 }
