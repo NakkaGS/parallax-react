@@ -1,10 +1,23 @@
 import "./parallax.css";
 
+import { useRef, useState } from "react";
+
+//Helpers
+import useClickOutside from "../../helpers/clickOutside";
+
 import React from "react";
 
 import concert_img from "../../assets/img/concert.jpg";
 
 export default function ParallaxNew() {
+  const [showMenu, setShowMenu] = useState(false);
+  const [showMenuWhite, setShowMenuWhite] = useState(false);
+
+  const mobilemenu = useRef();
+
+  useClickOutside(mobilemenu, () => {
+    setShowMenu(false);
+  });
   return (
     <div class="wrapper">
       <div class="parallax__group hero-container rellax">
@@ -17,25 +30,36 @@ export default function ParallaxNew() {
         <div class="parallax__layer people4"></div>
         <div class="parallax__layer hero-text">
           <h2>Parallax React</h2>
-          <ul>
-            <li>
-              <a href="#">About us</a>
-            </li>
-            <li>
-              <a href="#">Workshop</a>
-            </li>
-            <li>
-              <a href="#">Testimonial</a>
-            </li>
-            <li>
-              <a href="#">Agenda</a>
-            </li>
-            <li>
-              <a href="#" class="btn">
-                Contact us
-              </a>
-            </li>
-          </ul>
+          <button
+            type="button"
+            className="navbar-toggler"
+            id="navbar-toggler"
+            onClick={() => {
+              setShowMenu((prev) => !prev);
+            }}>
+            <i className="fas fa-bars"></i>
+          </button>
+          <div className="navbar-collapse" ref={mobilemenu}>
+            <ul>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Workshop</a>
+              </li>
+              <li>
+                <a href="#">Testimonial</a>
+              </li>
+              <li>
+                <a href="#">Agenda</a>
+              </li>
+              <li>
+                <a href="#" class="btn">
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </div>
           <div class="year-container">
             <h1>T</h1>
             <h1>E</h1>
@@ -95,25 +119,7 @@ export default function ParallaxNew() {
         {/* <div class="parallax__layer people3"></div> */}
         <div class="parallax__layer hero-text">
           <h2>Parallax React</h2>
-          <ul>
-            <li>
-              <a href="#">About us</a>
-            </li>
-            <li>
-              <a href="#">Workshop</a>
-            </li>
-            <li>
-              <a href="#">Testimonial</a>
-            </li>
-            <li>
-              <a href="#">Agenda</a>
-            </li>
-            <li>
-              <a href="#" class="btn">
-                Contact us
-              </a>
-            </li>
-          </ul>
+
           <div class="year-container">
             <h1>2</h1>
             <h1>0</h1>
